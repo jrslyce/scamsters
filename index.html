@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scam Dodge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="game-shell">
+    <h1>Scam Dodge</h1>
+    <p class="subtitle">Dodge fake links, phishing popups, and scam messages as long as you can.</p>
+    <div class="hud">
+      <span>Score: <strong id="score">0</strong></span>
+      <span>Lives: <strong id="lives">3</strong></span>
+      <button id="restart" hidden>Restart</button>
+    </div>
+    <canvas id="game" width="760" height="440" aria-label="Scam Dodge game canvas"></canvas>
+    <p class="instructions">Move with <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> or <kbd>WASD</kbd>.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
